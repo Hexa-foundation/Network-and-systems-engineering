@@ -1,4 +1,4 @@
-## O.S development project
+## ... development project
 
 The first step in creating our own operating system kernel is to create a Rust executable that does not link the standard library. This makes it possible to run Rust code on the bare metal without an underlying operating system.
 
