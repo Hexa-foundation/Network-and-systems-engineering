@@ -3,7 +3,7 @@
 The first step in creating our own operating system kernel is to create a Rust executable that does not link the standard library. This makes it possible to run Rust code on the bare metal without an underlying operating system.
 
 
-Steps/ prequisites
+Steps / prerequisites
 
 
 - Set up your version control system. Writing an operating system means you'll likely be creating hundreds (or thousands!) of lines of code. When you're working on revisions,
@@ -18,7 +18,7 @@ Steps/ prequisites
 
 - Choose a kernel design.
 
-## (a). Kernel developement(micro-kernel design)
+## (a). Kernel developement(monolithic/micro-kernel design)
 
 ![](https://github.com/Ruby-Raptor/Network-and-systems-engineering/blob/main/Project%20Eta-Carina/Extras/1200px-OS-structure.svg.png)
 
