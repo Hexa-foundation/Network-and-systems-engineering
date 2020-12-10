@@ -18,7 +18,8 @@ Steps/ prequisites
 
 - Choose a kernel design.
 
-## (a). Kernel developement(micro kernel design)
+## (a). Kernel developement(micro-kernel design)
+![micro/monolith-kernel design](https://en.wikipedia.org/wiki/Microkernel#/media/File:OS-structure.svg)
 
 Advantages of Microkernel
 Here, are the pros/benefits of using Microkernel
