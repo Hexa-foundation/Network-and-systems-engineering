@@ -31,10 +31,10 @@ Here, are the pros/benefits of using Microkernel
 - Microkernels are modular, and the different modules can be replaced, reloaded, modified without even touching the Kernel.
 - Fewer system crashes when compared with monolithic systems.
 - Microkernel interface helps you to enforce a more modular system structure.
-Without recompiling, add new features
+  Without recompiling, add new features.
 - Server malfunction is also isolated as any other user program's malfunction.
 - Microkernel system is flexible, so different strategies and APIs, implemented by different servers, which can coexist in the system.
-- Increased security and stability will result in a decreased amount of code which runs on kernel mode
+- Increased security and stability will result in a decreased amount of code which runs on kernel mode.
 
 Disadvantage of Microkernel
 Here, are drawback/cons of using Microkernel:
