@@ -50,6 +50,8 @@ You need to learn how to write the following:
 3. MULTITASKING.
 4. DEVICE MANAGEMENT.
 
-**N/B:** for bootloaders / firmware and kernels, Rust should not link to **std**, so we use **#![no_std]**
+**N/B:** for bootloaders / firmware and kernels, Rust should not link to **std**, so we use **#![no_std]** to restrict that.
 
 (b). System programs
+
+More info will be added.
