@@ -10,7 +10,7 @@ Steps / prerequisites
 
 - Bare Bones is a tutorial that helps you write your first simple 32-bit kernel. After completing the tutorial, the next step is to use Meaty Skeleton to structure your own operating system.
 
-- Linux from scratch.
+- Linux from scratch.(done)
 
 - Operating_Systems_From_0_to_1 book.
 
@@ -43,12 +43,13 @@ Here, are drawback/cons of using Microkernel:
 - Context switch or a function call needed when the drivers are implemented as procedures or processes, respectively.
 - The performance of a microkernel system can be indifferent and may lead to some problems.
 
-You need to learn how to write the following:
+You need to learn how to write the following i.e splitting the kernel:
 
-1. INTERRUPTS.
+1. PROCESS MANAGMENT.
 2. MEMORY MANAGEMENT.
-3. MULTITASKING.
+3. FILE SYSTEM.
 4. DEVICE MANAGEMENT.
+5. NETWORKING.
 
 **N/B:** for bootloaders / firmware and kernels, Rust should not link to **std**, so we use **#![no_std]**
 
