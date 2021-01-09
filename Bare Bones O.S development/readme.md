@@ -5,4 +5,4 @@
 
 The Netwide Assembler (NASM) is a popular assembler for the x86/x64 architecture.
 
-**$ nasm -felf32 name.asm -o name.o** generates the executable. -felf32 or -felf64 depends on the target architecture.
+**$ nasm -felf32 name.asm -o name.o** generates the executable. **-felf32** or **-felf64** depends on the target architecture.
