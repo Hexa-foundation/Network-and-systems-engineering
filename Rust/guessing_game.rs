@@ -4,9 +4,10 @@ use rand::Rng;
 use std::cmp::Ordering;
 
 fn main(){
+	
+	//loop the whole program
+	loop{
 println!("Guess the number");
-
-
 
 println!("Please input your guess");
 
@@ -22,6 +23,9 @@ let secret_number = rand::thread_rng().gen_range(1, 101);
 //we shadow variable guess
 let guess: u32 = guess.trim().parse()
                  .expect("Please type a number");
+                 
+               
+	
 println!("The secret number is: {}", secret_number);
 println!("You guessed:{}",guess);
 
@@ -32,4 +36,6 @@ Ordering::Less => println!("too small!"),
 Ordering::Greater => println!("Too large!"),
 Ordering::Equal => println!("You win!"),
 }
+}
+
 }
