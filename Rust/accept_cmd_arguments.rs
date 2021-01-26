@@ -13,5 +13,4 @@ println!("stdout: {}", String::from_utf8_lossy(&cmd.stdout));
 println!("stderr: {}", String::from_utf8_lossy(&cmd.stderr));
 
 assert!(output.status.success());
-//test
 }
